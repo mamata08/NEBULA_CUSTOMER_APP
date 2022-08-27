@@ -1,0 +1,7 @@
+{
+  "name": "NEBULA_CUSTOMER",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
