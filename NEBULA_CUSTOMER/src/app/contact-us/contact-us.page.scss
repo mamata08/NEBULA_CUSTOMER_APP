@@ -1,0 +1,105 @@
+ion-col.left-menu ion-icon {
+  color: #4242a9;
+    font-size: 30px;
+    margin-top: 10px;
+    border: 1px solid #BBBBBB;
+    border-radius: 10px;
+    padding: 4px;
+}
+ion-col.middle-ttl h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    color: #0A1F44;
+    margin-bottom: 0;
+}
+.login-logo-rw{
+      width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 45px;
+}
+.login-logo-rw img {
+    width: 210px;
+}
+.login-logo-rw h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #464646;
+    margin-top: -19px;
+    position: relative;
+}
+.login-logo-rw h3:after{
+  content: "";
+    height: 1px;
+    width: 150px;
+    background: #ccc;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: -18px;
+}
+.contact-address{
+  text-align:center;
+  margin-top:20px;
+}
+.contact-address p{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+text-align: center;
+color: #464646;
+}
+.contact-number{
+  text-align:center;
+}
+.contact-number a{
+ font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+text-align: center;
+text-decoration:none;
+display: block;
+    margin-top: 15px;
+
+color: #464646;
+}
+.contact-email{
+  text-align:center;
+  position: relative;
+  margin-top:20px;
+}
+.contact-email a{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+text-align: center;
+color: #464646;
+text-decoration:none;
+display: block;
+    margin-top: 15px;
+}
+.contact-email:after{
+  content: "";
+    height: 1px;
+    width: 150px;
+    background: #ccc;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: -18px;
+}

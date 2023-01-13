@@ -1,0 +1,72 @@
+<ion-header>
+  <ion-grid>
+          <ion-row>
+              <ion-col size="2" class="left-menu">
+                    <ion-icon name="menu"></ion-icon>  
+              </ion-col>
+              <ion-col size="6" class="middle-ttl">
+                <h2>Settings</h2>
+              </ion-col>
+              <ion-col size="4" class="right-icon">
+                    <ion-icon name="search-outline"></ion-icon>
+              </ion-col>
+          </ion-row>
+     </ion-grid>   
+</ion-header>
+<ion-content>
+  
+  <div class="setting-rw-bdy">
+    <ion-grid>
+          <ion-row>
+              <ion-col size="12" class="setting-tab-row">
+                <a href="#">
+                   <img src="/assets/images/plus-circle-icon.png">
+                   <span>App Health</span>
+                 </a>
+              </ion-col>
+             <ion-col size="12" class="setting-tab-row">
+                <a href="#">
+                   <img src="/assets/images/contact-1.png">
+                   <span>Contact US</span>
+                 </a>
+              </ion-col>
+              <ion-col size="12" class="setting-tab-row">
+                <a href="#">
+                   <img src="/assets/images/lock-icon.png">
+                   <span>Password</span>
+                 </a>
+              </ion-col>
+              <ion-col size="12" class="setting-tab-row">
+                <a expand="block" (click)="setOpen(true)">
+                   <img src="/assets/images/reload-2-icon.png">
+                   <span>Reset App</span>
+                 </a>
+                  <ion-modal [isOpen]="isModalOpen">
+    <ng-template>
+      
+      <ion-content class="ion-padding">
+            <div class="reset-inner">
+          <img class="reset-icon" src="/assets/images/reset.png">
+          <h2>RESET APP</h2>
+          <img class="reset-line" src="/assets/images/line-1.png">
+          <p>Before resetting the app, please use "SYNC NOW" to save any unsynced data.</p>
+        </div>
+        <ion-button class="close" (click)="setOpen(false)" class="custom-btn">CANCEL</ion-button>
+        <ion-button class="custom-btn">RESET</ion-button>
+      </ion-content>
+    </ng-template>
+  </ion-modal>
+              </ion-col>
+              <ion-col size="12" class="setting-tab-row">
+                <a href="#">
+                   <img src="/assets/images/power.png">
+                   <span>Logout</span>
+                 </a>
+              </ion-col>
+
+                          
+          </ion-row>
+     </ion-grid> 
+  </div>
+
+</ion-content>

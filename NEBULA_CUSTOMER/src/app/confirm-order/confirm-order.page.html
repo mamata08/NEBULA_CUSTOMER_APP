@@ -1,0 +1,83 @@
+<ion-header>
+  <ion-grid>
+          <ion-row>
+              <ion-col size="2" class="left-menu">
+                    <ion-icon name="chevron-back"></ion-icon>
+              </ion-col>
+              <ion-col size="10" class="middle-ttl">
+                <h2>Confirm Order</h2>
+              </ion-col>
+
+          </ion-row>
+     </ion-grid>   
+</ion-header>
+<ion-content>
+<div class="tab-rw-bdy">
+    <ion-grid>
+          <ion-row>
+              <ion-col size="12" class="cstmer-tab-row">
+                   <p>Order Date </p>
+                   <span>13/09/2022</span>
+              </ion-col>
+              <ion-col size="12" class="cstmer-tab-row">
+                   <p>Customer Name</p>
+                   <span>Customer Name</span>
+              </ion-col>
+              <ion-col size="12" class="cstmer-tab-row">
+                   <p>Distributor</p>
+                   <span>MUKHERJEE SURGICHEM</span>
+              </ion-col>
+              <ion-col size="12" class="cstmer-tab-row">
+                   <ion-textarea class="form-ctrl2-text" placeholder="Enter Notes"></ion-textarea>
+              </ion-col>
+              
+                          
+          </ion-row>
+     </ion-grid> 
+  </div>
+  <div class="second-row">
+        <ion-grid>
+          <ion-row>
+              <ion-col size="12" class="second-row-heading">
+                   <h2>Product Details</h2>
+              </ion-col>
+          </ion-row>
+        </ion-grid>
+        <ion-grid class="prduct-grid">
+    <ion-row class="prod-row">
+      <ion-col size="2" class="product-img">
+        <div class="prod-img-helder">
+          <img src="/assets/images/con-order-left-img.png">
+        </div>
+      </ion-col>
+      <ion-col size="10" class="product-content">
+        <h4>[504] ELECTRIC PLATER CUTTER WITH 2 BLADE</h4>
+        <h5>50 PCS X ₹ 6000.00</h5>
+        
+        <div class="prod-price-right">
+          <img src="/assets/images/delete-1.png">
+          <p>₹ 30,0000.00</p>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  </div>
+  <div class="third-row">
+        <ion-grid class="prduct-grid">
+    <ion-row class="prod-total-row">
+      
+      <ion-col size="12">
+        <a>Apply Charges</a>
+        <small>Tax (12%) ₹ 36,000.00 </small>
+        <p>Total Amount : ₹ 30,0000.00</p>
+        <h6>Total PCS: 50 (1 Item)</h6>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  </div>
+</ion-content>
+<ion-footer>
+  <div class="butn-row">
+    <ion-button class="custom-btn" (click)="goToConfirmOrder()">SAVE</ion-button>
+  </div>
+</ion-footer>

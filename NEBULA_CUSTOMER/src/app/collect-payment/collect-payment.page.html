@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-grid>
+          <ion-row>
+              <ion-col size="2" class="left-menu">
+                    <ion-icon name="chevron-back"></ion-icon>
+              </ion-col>
+              <ion-col size="10" class="middle-ttl">
+                <h2>Add Payment Collection</h2>
+              </ion-col>
+            
+          </ion-row>
+     </ion-grid>   
+</ion-header>
+
+<ion-content>
+<div class="login-text-rw">
+
+    <ion-list>
+<ion-item lines="none">
+  <ion-label>Date</ion-label>
+ <ion-input type="text" class="form-ctrl" placeholder="Date"></ion-input>
+  
+</ion-item>
+
+ <ion-item lines="none">
+  <ion-label>Amount</ion-label>
+ <ion-input type="text" class="form-ctrl" placeholder=""></ion-input>
+  
+  
+</ion-item>
+<ion-item lines="none">
+  <ion-label>Payment Type</ion-label>
+ <ion-select class="form-ctrl-2" placeholder="Cheque">
+      <ion-select-option value="apples">Apples</ion-select-option>
+      <ion-select-option value="oranges">Oranges</ion-select-option>
+      <ion-select-option value="bananas">Bananas</ion-select-option>
+    </ion-select>
+</ion-item>
+<ion-item lines="none">  
+ <ion-textarea rows="6"  placeholder="Description"></ion-textarea>
+</ion-item>
+
+</ion-list>
+    <ion-button class="custom-btn">Save</ion-button>
+  </div>
+</ion-content>

@@ -1,0 +1,185 @@
+ion-col.left-menu ion-icon {
+    color: #4242a9;
+    font-size: 30px;
+    margin-top: 10px;
+    border: 1px solid #BBBBBB;
+    border-radius: 10px;
+    padding: 4px;
+}
+ion-col.middle-ttl h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    color: #0A1F44;
+    margin-bottom: 0;
+}
+ion-col.right-icon ion-icon {
+    color: blue;
+    text-align: right;
+    float: right;
+    font-size: 35px;
+    margin-top: 11px;
+}
+.title-rw {
+    margin-bottom: 20px;
+}
+.title-rw h2{
+  font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+    color: #8A94A6;
+    border-left: 4px solid #2B63FF;
+    padding-left: 10px;
+    }
+
+.login-text-rw{
+	width: 100%;
+    margin: 30px auto auto auto;
+    text-align: center;
+    padding: 0;
+}
+.login-text-rw h2{
+	font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 33px;
+text-align: center;
+color: #0E254D;
+margin-bottom: 30px;
+}
+.form-ctrl {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    --padding-start: 6px !important;
+    --padding-end: 0px !important;
+    margin-bottom: 0;
+    position: relative;
+    height: 50px !important;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    font-family: "Poppins";
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+color: #8A94A6;
+}
+.form-ctrl-2{
+    width: 100%;
+    border: 1px solid #ccc;
+    --padding-start: 10px !important;
+    --padding-end: 10px !important;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    position: relative;
+    height: 55px !important;
+    margin-top: 30px;
+    max-width:100%;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+color: #8A94A6;
+}
+ion-textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    --padding-start: 10px !important;
+    --padding-end: 10px !important;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    position: relative;
+    max-width:100%;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+color: #8A94A6;
+}
+
+.login-text-rw ion-button{
+	    font-family: "Poppins" !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    line-height: 33px !important;
+    color: #FFFFFF !important;
+    --background: linear-gradient(180deg, #008DD2 0%, #2B63FF 100%) !important;
+    filter: drop-shadow(0px 16px 16px rgba(10, 22, 70, 0.102)) !important;
+    --border-radius: 30px !important;
+    height: 50px;
+    margin-top: 25px;
+    width: 100%;
+}
+.login-text-rw a{
+	font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #2B63FF;
+width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 50px;
+}
+.login-text-rw ion-label{
+	position: absolute;
+    top: -10px;
+    z-index: 999 !important;
+    background: #fff !important;
+    left: 7px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+color: #0A1F44;
+}
+.login-text-rw span.form-icon{
+	position: absolute;
+    right: 10px;
+    font-size: 26px;
+    bottom: 20px;
+    color: #7e7a7a;
+}
+ion-item {
+    --padding-start: 0 !important;
+    --inner-padding-end: 0 !important;
+}
+@media (prefers-color-scheme: dark){
+    ion-checkbox.right-check {
+    position: absolute;
+    right: 0;
+    --background: #fff !important;
+    border: 1px solid blue !important;
+    padding: 5px !important;
+    height: 25px;
+    width: 25px;
+}
+.activity-section.even{
+    background:#ECF1FF !important;
+    filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.161));
+    border-radius: 10px;
+    margin: 20px 8px !important;
+    padding: 0;
+  
+    }
+    ion-list.activity-list-1st-rw.ios.list-ios.hydrated {
+    background: #fff;
+}
+ion-list.ios.list-ios.hydrated {
+    background: #fff;
+}
+}
+
+.disabled{
+    pointer-events: none !important;
+}

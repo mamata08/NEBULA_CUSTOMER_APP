@@ -24,3 +24,53 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ion-content {
+       --padding-start: 20px !important;
+    --padding-end: 20px !important;
+}
+ion-header {
+    background: #fff!important;
+    padding: 0 5px;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+}
+.container {
+    padding: 0 20px;
+}
+@media (prefers-color-scheme: dark){
+body {
+    --ion-background-color: #ffffff !important;
+    }
+    .form-ctrl::-moz-placeholder {
+  color: black;
+  z-index:9999;
+}
+
+.form-ctrl:-ms-input-placeholder {
+  color: black;
+  z-index:9999;
+}
+
+.form-ctrl::-webkit-input-placeholder {
+  color: black;
+  z-index:9999;
+}
+ion-list{
+    background:#fff;
+}
+.list-md {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    background: #fff !important;
+    padding: 20px 0 !important;
+}
+ion-item{
+    --background:transperent;
+}
+.form-ctrl {
+    color: #333 !important;
+}
+.input-wrapper {
+    display: block !important;
+    }
+}
